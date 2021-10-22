@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-15T06:58:55.581Z",
+        "line": 2,
+        "name": "Validate Login",
+        "description": "",
+        "id": "orangehrm;validate-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4447800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Open Url",
+            "match": {
+              "location": "stepdefinition.ValidateLoginHRM.user_open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter Username",
+            "match": {
+              "location": "stepdefinition.ValidateLoginHRM.enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1058900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter Password",
+            "match": {
+              "location": "stepdefinition.ValidateLoginHRM.enter_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1995700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click On Login",
+            "match": {
+              "location": "stepdefinition.ValidateLoginHRM.click_on_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm",
+    "description": "",
+    "id": "orangehrm",
+    "keyword": "Feature",
+    "uri": "file:Features/XYZ.feature",
+    "tags": []
+  }
+]
